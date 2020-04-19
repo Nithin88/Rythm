@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Trackers">012bda45db14101092ddcd3f299619af</category>
+        <columns>date,hom_im_feeling,notes,number,rating,sys_created_by,sys_created_on,sys_id,sys_mod_count,sys_tags,sys_updated_by,sys_updated_on,time_of_day,user</columns>
+        <condition/>
+        <groups/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>nithin</sys_created_by>
+        <sys_created_on>2020-04-19 07:17:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c92bda45db14101092ddcd3f299619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rythm" source="x_171481_rythm">20019681dbd0101092ddcd3f299619db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rythm">20019681dbd0101092ddcd3f299619db</sys_scope>
+        <sys_update_name>sys_aw_list_c92bda45db14101092ddcd3f299619b3</sys_update_name>
+        <sys_updated_by>nithin</sys_updated_by>
+        <sys_updated_on>2020-04-19 07:17:03</sys_updated_on>
+        <table>x_171481_rythm_tracker</table>
+        <title>All</title>
+        <workspace display_value="Rythm">dc2b16c1db14101092ddcd3f29961980</workspace>
+    </sys_aw_list>
+</record_update>

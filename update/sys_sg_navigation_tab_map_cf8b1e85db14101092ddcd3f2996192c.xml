@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map">
+    <sys_sg_navigation_tab_map action="INSERT_OR_UPDATE">
+        <navigation display_value="Mobile Agent">679d4f0653d033002d96ddeeff7b1279</navigation>
+        <navigation_tab display_value="Rythm">728b9609dbd0101092ddcd3f29961972</navigation_tab>
+        <order>9200</order>
+        <sys_class_name>sys_sg_navigation_tab_map</sys_class_name>
+        <sys_created_by>nithin</sys_created_by>
+        <sys_created_on>2020-04-19 07:18:50</sys_created_on>
+        <sys_id>cf8b1e85db14101092ddcd3f2996192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rythm" source="x_171481_rythm">20019681dbd0101092ddcd3f299619db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rythm">20019681dbd0101092ddcd3f299619db</sys_scope>
+        <sys_update_name>sys_sg_navigation_tab_map_cf8b1e85db14101092ddcd3f2996192c</sys_update_name>
+        <sys_updated_by>nithin</sys_updated_by>
+        <sys_updated_on>2020-04-19 07:18:50</sys_updated_on>
+    </sys_sg_navigation_tab_map>
+</record_update>

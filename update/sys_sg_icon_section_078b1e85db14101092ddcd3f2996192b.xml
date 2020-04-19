@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>f68b1e85db14101092ddcd3f29961910</applets>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <orientation>horizontal</orientation>
+        <required_roles>x_171481_rythm.tracker</required_roles>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>nithin</sys_created_by>
+        <sys_created_on>2020-04-19 07:18:50</sys_created_on>
+        <sys_id>078b1e85db14101092ddcd3f2996192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tracker</sys_name>
+        <sys_package display_value="Rythm" source="x_171481_rythm">20019681dbd0101092ddcd3f299619db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rythm">20019681dbd0101092ddcd3f299619db</sys_scope>
+        <sys_update_name>sys_sg_icon_section_078b1e85db14101092ddcd3f2996192b</sys_update_name>
+        <sys_updated_by>nithin</sys_updated_by>
+        <sys_updated_on>2020-04-19 07:18:50</sys_updated_on>
+        <table/>
+        <title>Tracker</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>

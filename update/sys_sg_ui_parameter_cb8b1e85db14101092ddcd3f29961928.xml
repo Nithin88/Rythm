@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Tracker)">8b8b1e85db14101092ddcd3f29961926</button>
+        <button_parent_table>x_171481_rythm_tracker</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>user</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>list</input_type>
+        <mandatory>false</mandatory>
+        <multi_select>false</multi_select>
+        <name>User</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>user</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>nithin</sys_created_by>
+        <sys_created_on>2020-04-19 07:18:50</sys_created_on>
+        <sys_id>cb8b1e85db14101092ddcd3f29961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Rythm" source="x_171481_rythm">20019681dbd0101092ddcd3f299619db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rythm">20019681dbd0101092ddcd3f299619db</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_cb8b1e85db14101092ddcd3f29961928</sys_update_name>
+        <sys_updated_by>nithin</sys_updated_by>
+        <sys_updated_on>2020-04-19 07:18:50</sys_updated_on>
+        <table_name>x_171481_rythm_tracker</table_name>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb8b1e85db14101092ddcd3f29961928"/>
+</record_update>

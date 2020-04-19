@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Tracker Item Stream">728b1e85db14101092ddcd3f29961913</item_stream>
+        <master_item display_value="Tracker master_item">728b1e85db14101092ddcd3f29961914</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>nithin</sys_created_by>
+        <sys_created_on>2020-04-19 07:18:49</sys_created_on>
+        <sys_id>3e8b1e85db14101092ddcd3f29961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rythm" source="x_171481_rythm">20019681dbd0101092ddcd3f299619db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rythm">20019681dbd0101092ddcd3f299619db</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_3e8b1e85db14101092ddcd3f29961914</sys_update_name>
+        <sys_updated_by>nithin</sys_updated_by>
+        <sys_updated_on>2020-04-19 07:18:49</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

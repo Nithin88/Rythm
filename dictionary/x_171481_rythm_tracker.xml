@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tracker" max_length="40" name="x_171481_rythm_tracker" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Hom I'm feeling" max_length="40" name="hom_im_feeling" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="400" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rating" max_length="40" name="rating" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time of day" max_length="40" name="time_of_day" type="string"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
