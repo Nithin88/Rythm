@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Tracker" max_length="40" name="x_171481_rythm_tracker" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Hom I'm feeling" max_length="40" name="hom_im_feeling" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How I'm feeling" max_length="40" name="hom_im_feeling" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Focus" sequence="10" value="Focus"/>
+                <element inactive_on_update="false" label="Enthusiasm" sequence="20" value="Enthusiasm"/>
+                <element inactive_on_update="false" label="Energy" sequence="30" value="Energy"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="400" name="notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Rating" max_length="40" name="rating" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Time of day" max_length="40" name="time_of_day" type="string"/>
-        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rating" max_length="40" name="rating" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="50" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Time of day" max_length="40" name="time_of_day" type="string">
+            <choice>
+                <element inactive_on_update="false" label="12 AM" sequence="10" value="12 AM"/>
+                <element inactive_on_update="false" label="1 AM" sequence="20" value="1 AM"/>
+                <element inactive_on_update="false" label="2 AM" sequence="30" value="2 AM"/>
+                <element inactive_on_update="false" label="3 AM" sequence="40" value="3 AM"/>
+                <element inactive_on_update="false" label="4 AM" sequence="50" value="4 AM"/>
+                <element inactive_on_update="false" label="5 AM" sequence="60" value="5 AM"/>
+                <element inactive_on_update="false" label="6 AM" sequence="70" value="6 AM"/>
+                <element inactive_on_update="false" label="7 AM" sequence="80" value="7 AM"/>
+                <element inactive_on_update="false" label="8 AM" sequence="90" value="8 AM"/>
+                <element inactive_on_update="false" label="9 AM" sequence="100" value="9 AM"/>
+                <element inactive_on_update="false" label="10 AM" sequence="110" value="10 AM"/>
+                <element inactive_on_update="false" label="11 AM" sequence="120" value="11 AM"/>
+                <element inactive_on_update="false" label="12 PM" sequence="130" value="12 PM"/>
+                <element inactive_on_update="false" label="1 PM" sequence="140" value="1 PM"/>
+                <element inactive_on_update="false" label="2 PM" sequence="150" value="2 PM"/>
+                <element inactive_on_update="false" label="3 PM" sequence="160" value="3 PM"/>
+                <element inactive_on_update="false" label="4 PM" sequence="170" value="4 PM"/>
+                <element inactive_on_update="false" label="5 PM" sequence="180" value="5 PM"/>
+                <element inactive_on_update="false" label="6 PM" sequence="190" value="6 PM"/>
+                <element inactive_on_update="false" label="7 PM" sequence="200" value="7 PM"/>
+                <element inactive_on_update="false" label="8 PM" sequence="210" value="8 PM"/>
+                <element inactive_on_update="false" label="9 PM" sequence="220" value="9 PM"/>
+                <element inactive_on_update="false" label="10 PM" sequence="230" value="10 PM"/>
+                <element inactive_on_update="false" label="11 PM" sequence="240" value="11 PM"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="user"/>
         </index>
